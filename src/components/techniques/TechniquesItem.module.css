@@ -1,0 +1,26 @@
+.item {
+  height: 15vh;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh;
+  padding: 1vh;
+  border: thick solid;
+  border-color: rgb(7, 3, 44);
+}
+
+.text {
+  width: 40%;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  margin-right: 1rem;
+}
+
+.video {
+  width: 60%;
+  height: 95%;
+}

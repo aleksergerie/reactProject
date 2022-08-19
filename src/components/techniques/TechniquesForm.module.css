@@ -1,0 +1,62 @@
+.card {
+  background-color: rgb(236, 236, 236);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+
+  align-items: center;
+  display: inline-block;
+}
+
+.identification {
+  display: flex;
+  width: 100%;
+}
+
+.label {
+  margin: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: calc(100%-1rem);
+}
+
+.label label {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.label textarea,
+.label input {
+  width: 100%;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  resize: none;
+}
+
+.action {
+  text-align: center;
+}
+
+.action button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgb(7, 3, 44);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 3rem;
+}
+
+.action button:hover,
+.action button:active {
+  background-color: rgb(7, 3, 100);
+  border-color: rgb(7, 3, 100);
+}

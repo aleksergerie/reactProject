@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  margin: 5vh;
+}
+
+.leftContainer {
+  width: 50%;
+  margin-right: 10rem;
+  margin-left: 3rem;
+}
+
+.leftContainer p {
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 3rem;
+  margin-top: 12rem;
+  text-align: justify;
+}
+
+.form {
+  width: 100%;
+}
+
+.list {
+  overflow-y: scroll;
+}

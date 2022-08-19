@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  max-height: 100vh;
+  border: solid rgb(109, 109, 109);
+  border-width: 2px;
+  background-color: rgb(179, 179, 179);
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

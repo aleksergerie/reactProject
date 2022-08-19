@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
+}
+
+.map {
+  width: 100%;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+
+  margin-top: 2rem;
+}
+
+.leftContainer li {
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  margin-bottom: 0.7rem;
+}
+
+.schedule {
+  font-size: 25px;
+  font-weight: bold;
+}
